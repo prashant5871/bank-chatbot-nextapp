@@ -1,7 +1,7 @@
 "use client";
 
 import Footer from "@/components/bank/Footer";
-import Header from "@/components/bank/Header";
+import {Header} from "@/components/bank/Header";
 import Hero from "@/components/bank/Hero";
 import ChatInterface from "@/components/chat/ChatInterface";
 import { useEffect } from "react";

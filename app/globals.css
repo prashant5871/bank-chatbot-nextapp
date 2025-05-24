@@ -72,10 +72,7 @@
     --chart-5: 340 75% 55%;
   }
 
-  * {
-    @apply border;
-    border-color: hsl(var(--border));
-  }
+
 
   body {
     @apply bg-background text-foreground;
