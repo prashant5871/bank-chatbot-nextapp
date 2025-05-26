@@ -1,5 +1,6 @@
 "use client";
 
+import { ArchitectureSection } from "@/components/bank/ArchitectureSection";
 import {Footer} from "@/components/bank/Footer";
 import {Header} from "@/components/bank/Header";
 import {Hero} from "@/components/bank/Hero";
@@ -20,6 +21,10 @@ export default function Home() {
         
         <section className="pt-16">
           <Hero />
+        </section>
+
+        <section>
+          <ArchitectureSection />
         </section>
       </div>
       
